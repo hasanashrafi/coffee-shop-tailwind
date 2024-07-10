@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/index.css -o ./public/styles/app.css --watch"
+  },
   "devDependencies": {
     "tailwindcss": "^3.4.4"
   }
